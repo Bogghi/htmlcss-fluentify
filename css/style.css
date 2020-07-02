@@ -40,7 +40,7 @@ nav {
     line-height: 8vh;
 }
 
-#login-section {
+#login-section { 
     float: right;
     line-height: 8vh;
     width: 30%;
@@ -89,7 +89,7 @@ header nav ul {
     margin-left: 0px;
 }
 
-header nav li{
+header nav li{ 
     display: inline-block;
 }
 
@@ -128,6 +128,7 @@ header nav li a{
 
 .grey-section {
     height: 10vh;
+    background-color: #d3d3d3;
 }
 
 /* /grey section */
