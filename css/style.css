@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0c325a;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: inline-block;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+
+/* alligning the nav content */
+#logo{ 
+    float: left;
+    line-height: 10vh;
+}
+
+#logo img {
+    vertical-align: middle;
+    padding-bottom: 8%;
+}
+
+nav {
+    float: left;
+    width: 80%;
+    margin: auto;
+    line-height: 10vh;
+}
+
+#login-section {
+    float: right;
+    line-height: 10vh;
+    width: 30%;
+}
+/* /alligning the nav content */
+
+/* login section style */
+#login-section button {
+    text-transform: uppercase;
+    color: white;
+}
+
+.green-button {
+    padding: 2%;
+    margin-left: 10%;
+    background-color: #7cbb02;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.blue-button {
+    padding: 2% 8%;
+    margin-left: 10%;
+    background-color: #0c325a;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+#login-section p {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* /login section style */
+
+
+#login-section p { 
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+    margin-left: 0px;
+}
+
+header nav li{
+    display: inline-block;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
