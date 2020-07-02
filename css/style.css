@@ -5,23 +5,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: #0c325a;
+.container { 
     width: 80%;
     margin: auto;
 }
 
 header {
+    background-color: #0c325a;
     display: inline-block;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     position: relative;
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 110% 109%;
 }
 
 /* alligning the nav content */
 #logo{ 
     float: left;
-    line-height: 10vh;
+    line-height: 8vh;
 }
 
 #logo img {
@@ -31,14 +35,14 @@ header {
 
 nav {
     float: left;
-    width: 80%;
+    width: 50%;
     margin: auto;
-    line-height: 10vh;
+    line-height: 8vh;
 }
 
 #login-section {
     float: right;
-    line-height: 10vh;
+    line-height: 8vh;
     width: 30%;
 }
 /* /alligning the nav content */
@@ -54,8 +58,10 @@ nav {
     margin-left: 10%;
     background-color: #7cbb02;
     color: white;
-    font-weight: 700;
+    font-size: 700;
     border-radius: 10px;
+    text-transform: uppercase;
+
 }
 
 .blue-button {
@@ -93,3 +99,35 @@ header nav li a{
     text-transform: uppercase;
     padding: 10px;
 }
+
+/* header insertion style */
+
+.haeder-text h1{
+    position: absolute;
+    left: 10%;
+    top: 33%;
+    color: white;
+    font-size: 70px;
+}
+
+.haeder-text button{
+    padding: 1%;
+    background-color: #7cbb02;
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    border-radius: 10px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+/* /header insertion style */
+
+/* grey section */
+
+.grey-section {
+    height: 10vh;
+}
+
+/* /grey section */
