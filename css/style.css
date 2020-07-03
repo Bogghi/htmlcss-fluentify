@@ -20,6 +20,7 @@ header {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: 110% 109%;
+    margin-bottom: -4px;
 }
 
 /* alligning the nav content */
@@ -127,8 +128,61 @@ header nav li a{
 /* grey section */
 
 .grey-section {
-    height: 10vh;
     background-color: #d3d3d3;
+    padding: 2%;
+    text-align: center;
+}
+
+.grey-section h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.grey-section h3 {
+    font-size: 20px;
+    color: grey;
 }
 
 /* /grey section */
+
+/* info section syle */
+
+.info {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.info img{
+    max-width: 250;
+    max-height: 250px;
+    padding: 20px;
+}
+
+main section.container {
+    position: relative;
+}
+
+.info h2 {
+    color: #7cbb02;
+    margin: auto;
+}
+
+.info hr {
+    width: 30%;
+    border: 1px #808080 solid;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto; class=""
+.info p {
+    color: #808080;
+    margin: auto;
+    padding: 20px;
+}
+
+/* /info section syle */
+
+main hr {
+    border: 1px #808080 solid;
+}
